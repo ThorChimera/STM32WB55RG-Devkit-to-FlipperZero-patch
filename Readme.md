@@ -1,3 +1,0 @@
-This repository contains the patches to make the zero pinball firmware work on the devkit (there are only 2 files to be inserted in a folder for firmware) the patch cancels the pinball LED driver and the 2 battery charging control chips, which if not physically present connected to the mcu cause continuous crashes on the firmware.
-To patch, simply download the firmware you need with gitclone, copy the files into the folder (the path and other information can be found inside the folder with the firmware name in the text document) and then recompile.
-I also remind you that special procedures are needed to make the chip work with the firmware (efuse+mod with stm32 programmer) which are not present in this repository
