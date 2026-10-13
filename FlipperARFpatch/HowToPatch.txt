@@ -1,0 +1,25 @@
+put files in:
+
+
+/Momentum-Firmware/targets/f7/furi_hal/
+
+
+overwrite.
+
+you can buil firmware with
+
+./fbt
+
+
+to build sd files:
+
+
+./fbt updater_package
+
+
+
+
+to build fap (not tested):
+
+
+./fbt launch APPSRC=your_appid
